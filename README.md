@@ -1,6 +1,6 @@
 # 1-Platform Assessment
 
-PERN and Docker for development.
+PERN stack and Docker for development.
 
 # Tech Stack
 
@@ -11,10 +11,10 @@ PERN and Docker for development.
 
 # Development
 
-1. Start database
+1. Start application
 
 ```sh
-# Setup .env from .env.example in server folder
+# Setup .env from .env.example in the server folder
 $ docker-compose up --build
 ```
 
@@ -30,5 +30,5 @@ $ knex migrate:latest
 $ knex seed:run      
 ```
 
-check localhost:3001 for BE
+check localhost:3001 for BE,
 check localhost:3000 for FE
