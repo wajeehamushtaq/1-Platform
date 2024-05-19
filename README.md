@@ -2,6 +2,9 @@
 
 PERN stack and Docker for development.
 
+- User Service: Functionality for authentication
+- Ticket service: Apply CRUD operations and ticketing service that belongs to assigned user
+
 # Tech Stack
 
 1. Postgres - Database
